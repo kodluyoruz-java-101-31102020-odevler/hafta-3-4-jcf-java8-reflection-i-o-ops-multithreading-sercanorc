@@ -1,0 +1,15 @@
+
+
+
+Array List
+
+Dinamik bir dizi ile çalışır yani yeni eleman ekleneceği zaman dizide alan açar ve katlanarak alan açmaya devam eder. Ekleme çıkarma işlemleri yoğunsa ArrayList yavaş çalışır
+Veri saklamak ve veriye erişimin yoğun olduğu durumlar için ArrayList tercih edilir.
+
+*************************************
+
+Linked List
+
+Her elemanın bir değerinin yanında bir de referans içerdiği veri yapısıdır.
+Veri ekleme çıkarma işlemlerinde ArrayList’e göre hızlıdır. Çünkü, veri yapısı gereği herhangi bir kaydırma işlemine gerek duymaz.
+Veri kümesi üzerinde yoğun bir şekilde ekleme-çıkarma gibi güncelleme işlemleri varsa bu durumda LinkedList tercih edilir.
