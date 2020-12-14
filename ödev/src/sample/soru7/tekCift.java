@@ -42,7 +42,7 @@ public class tekCift implements Runnable {
         }
     }
 
-    private void ekle(List<Integer> list, int element) {
+    private synchronized void ekle(List<Integer> list, int element) {
         list.add(element);
     }
 
