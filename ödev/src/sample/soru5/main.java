@@ -31,6 +31,7 @@ public class main {
             String value = entry.getValue();
             System.out.println(key + " : " + value);
         }
+        list.stream().filter(s -> s.getSayfaSayisi()> 100 ).forEach(s -> System.out.println(s.toString()));
 
     }
 }
